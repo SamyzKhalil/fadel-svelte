@@ -39,7 +39,7 @@
       type="submit"
       class="text-black absolute right-2 top-1/2 -translate-y-1/2 bg-gray-100 hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-400 font-bold rounded-lg text-xs px-3 py-2"
     >
-      <img src="icons/upload.svg" alt="" />
+      <img class="w-5 h-5" src="icons/upload.svg" alt="" />
     </button>
     <input bind:this={fileInput} bind:value={imageFile} type="file" hidden />
   </div>

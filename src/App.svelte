@@ -40,16 +40,40 @@
   >
     <div class="grid gap-8 md:grid-rows-5">
       <Input bind:field={fields.topLeft}>
-        <img slot="icon" class="mr-1" src="icons/top-left.svg" alt="" />
+        <img
+          slot="icon"
+          class="mr-1 w-6 h-6"
+          src="icons/top-left.svg"
+          width="24"
+          alt=""
+        />
       </Input>
       <Input bind:field={fields.topRight}>
-        <img slot="icon" class="mr-1" src="icons/top-right.svg" alt="" />
+        <img
+          slot="icon"
+          class="mr-1 w-6 h-6"
+          src="icons/top-right.svg"
+          width="24"
+          alt=""
+        />
       </Input>
       <Input bind:field={fields.bottomLeft}>
-        <img slot="icon" class="mr-1" src="icons/bottom-left.svg" alt="" />
+        <img
+          slot="icon"
+          class="mr-1 w-6 h-6"
+          src="icons/bottom-left.svg"
+          width="24"
+          alt=""
+        />
       </Input>
       <Input bind:field={fields.bottomRight}>
-        <img slot="icon" class="mr-1" src="icons/bottom-right.svg" alt="" />
+        <img
+          slot="icon"
+          class="mr-1 w-6 h-6"
+          src="icons/bottom-right.svg"
+          width="24"
+          alt=""
+        />
       </Input>
 
       <ShareButton {fields} />

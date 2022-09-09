@@ -83,7 +83,7 @@
   on:mousedown={mouseDown}
   on:mouseup={mouseUp}
   on:mousemove={mouseMove}
-  on:wheel={zoom}
+  on:wheel|passive={zoom}
 >
   <div class="contents pointer-events-none select-none">
     <!-- Labels -->
