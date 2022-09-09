@@ -38,11 +38,19 @@
   <div
     class="container flex flex-col justify-between p-4 w-[350px] overflow-auto h-screen"
   >
-    <div class="grid gap-6 md:grid-rows-5">
-      <Input bind:field={fields.topLeft} />
-      <Input bind:field={fields.topRight} />
-      <Input bind:field={fields.bottomLeft} />
-      <Input bind:field={fields.bottomRight} />
+    <div class="grid gap-8 md:grid-rows-5">
+      <Input bind:field={fields.topLeft}>
+        <img slot="icon" class="mr-1" src="icons/top-left.svg" alt="" />
+      </Input>
+      <Input bind:field={fields.topRight}>
+        <img slot="icon" class="mr-1" src="icons/top-right.svg" alt="" />
+      </Input>
+      <Input bind:field={fields.bottomLeft}>
+        <img slot="icon" class="mr-1" src="icons/bottom-left.svg" alt="" />
+      </Input>
+      <Input bind:field={fields.bottomRight}>
+        <img slot="icon" class="mr-1" src="icons/bottom-right.svg" alt="" />
+      </Input>
 
       <ShareButton {fields} />
     </div>
@@ -54,7 +62,7 @@
         target="_blank"
         class="underline underline-offset-4"
       >
-        Abdelrahman
+        Abdelrahman Khalil
       </a>
     </div>
   </div>

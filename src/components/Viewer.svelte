@@ -87,7 +87,7 @@
 >
   <div class="contents pointer-events-none select-none">
     <!-- Labels -->
-    <Label posY="bottom" posX="center" class="text-xs">
+    <Label posY="bottom" posX="center" class="!text-xs">
       {(zoomLevel * 100).toFixed(1)}%
     </Label>
 
