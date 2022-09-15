@@ -34,10 +34,10 @@
     viewOffsetLeftPerc = (e.offsetX / viewWidth) * 100
 
     contentOffsetLeftPerc =
-      ((e.screenX - contentOffsetLeft) / contentWidth) * 100
+      ((e.clientX - contentOffsetLeft) / contentWidth) * 100
 
     contentOffsetTopPerc =
-      ((e.offsetY - contentOffsetTop) / contentHeight) * 100
+      ((e.clientY - contentOffsetTop) / contentHeight) * 100
 
     if (isDragging) {
       if (lastPoint) {
